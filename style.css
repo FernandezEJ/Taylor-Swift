@@ -1,0 +1,146 @@
+@font-face {
+    font-family: pencilpete;
+    src: url(pencil.ttf);
+ }
+ @font-face {
+    font-family: taylorswifthandwriting;
+    src: url(ty.ttf);
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ a {
+    text-decoration: none;
+    color: rgb(206, 219, 226); 
+    }
+ ul {
+        list-style: none;
+     }
+    body {
+        background-image: url(last.png);
+    }
+
+     /*home*/
+
+    .title {
+        position: absolute;
+        margin-top: 0;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        background-image: url(last.png);
+     }
+     .mer {
+        color: rgb(255, 255, 255);
+     }
+     .dates {
+        color: rgb(255, 255, 255);
+     }
+     .news {
+        color: rgb(255, 255, 255);
+     }
+     .tst {
+        color: rgb(255, 255, 255);
+     }
+    .logo{
+       font-size: 60px;
+       font-family: pencilpete, sans-serif;
+    }
+    .links {
+       display: flex;
+       align-items: center;
+    }
+    .links li {
+       margin: 0 30px;
+       text-decoration: none;
+    }
+    .menu {
+       position: absolute;
+       top: 50px;
+       right: 50px;
+       width: 40px;
+       cursor: pointer;
+       display: none;
+    }
+
+    /* Era */
+     .col {
+        text-align: center;
+        margin-top: 10vh;
+        width: 100%;
+        height: 100vh;
+     }
+
+     /*2nd scroll*/
+
+
+     header {
+        width: 100%;
+        height: 100vh;
+        background-image: url(MERCH1.png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 45vh;
+        padding-right: 78vh;
+     }
+     .order {
+        padding: 8px 100px;
+        color: rgb(51, 45, 45);
+        font-size: 60px;
+        font-family: taylorswifthandwriting, sans-serif;
+     }
+     .slinks {
+        display: flex;
+     }
+     .slinks a {
+      width: 80px;
+      margin-left: 160px;
+      font-size: 30px;
+      margin-top: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+     }
+
+     /* Mobile Dev */
+@media only screen and (max-width: 850px){
+    .menu {
+       display: block;
+    }
+ .title {
+    padding: 0;
+ }
+ .logo {
+    position: absolute;
+    top: 10px;
+    left: 105px;
+ }
+ .links {
+    flex-direction: column;
+    width: 100%;
+    height: 110vh;
+    justify-content: center;
+    background-image: url(bgg.jpg);
+    text-align: center;
+    margin-top: -1000px;
+    transition: all 0.3s ease;
+ }
+ .mobile-menu{
+    margin-top: 0;
+    border-bottom-right-radius: 40%;
+ }
+ .links li {
+    margin: 30px auto;
+ }
+ }
